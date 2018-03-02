@@ -55,9 +55,9 @@
   ============================-->
   <header id="header">
     <div class="container">
-        <img src="img/alekya-homes-logo.png">
+        
       <div id="logo" class="pull-left">
-          
+          <a href="#header" ><img src="img/alekya-homes-logo.png"></a>
         <!-- <h1><a href="#body" class="scrollto">Alekhya<span>Homes</span></a></h1> -->
         <!-- Uncomment below if you prefer to use an image logo -->
       </div>
@@ -81,8 +81,9 @@
           <!-- <li><a href="#testimonials">Testimonials</a></li>
           <li><a href="#Architecture">Architecture</a></li>
           <li><a href="#Archievements">Achievements</a></li> -->
-          
+          <br>
          </ul>
+         
       </nav>
     </div>
   </header><!-- #header -->
@@ -634,14 +635,18 @@
           <div id="errormessage"></div>
           <form action="" method="post" role="form" class="contactForm">
             <div class="form-row">
-              <div class="form-group col-md-6">
+              <div class="form-group col-md-4">
                 <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
                 <div class="validation"></div>
               </div>
-              <div class="form-group col-md-6">
+              <div class="form-group col-md-4">
                 <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
                 <div class="validation"></div>
               </div>
+              <div class="form-group col-md-4">
+                  <input type="text" name="phone" class="form-control" id="phone" placeholder="Phone" data-rule="minlen:10" data-msg="Please enter at least 10 chars" />
+                  <div class="validation"></div>
+                </div>
             </div>
             
             <div class="form-group">
